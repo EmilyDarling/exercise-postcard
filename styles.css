@@ -1,6 +1,6 @@
 body {
 	font-family: "Playwrite BE VLG", cursive;
-	font-size: small;
+	font-size: 10px;
 	background: black;
 }
 
@@ -11,15 +11,18 @@ body {
 	margin: auto;
 }
 .postcard-header {
+	padding-top: 10px;
 	display: flex;
 }
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	margin-right: 10px;
 }
 .postcard-header h1 {
-	width: 350px;
+	width: 330px;
 	margin: 0;
+	margin-left: 10px;
 }
 .postcard-body {
 	display: flex;
@@ -34,6 +37,7 @@ body {
 input {
 	border: none;
 	border-bottom: solid rgb(61, 61, 61) 1px;
+	padding-top: 10px;
 }
 .postcard-footer {
 	text-align: center;
