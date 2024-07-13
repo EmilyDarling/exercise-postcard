@@ -1,12 +1,9 @@
 body {
-    font-family: "Playwrite BE VLG", cursive;
-    font-optical-sizing: auto;
+	font-family: "Playwrite BE VLG", cursive;
+	font-size: small;
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
+
 .postcard {
 	background: white;
 	width: 400px;
@@ -36,12 +33,12 @@ body {
 }
 input {
 	border: none;
-	border-bottom: solid gray 1px;
+	border-bottom: solid rgb(61, 61, 61) 1px;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
-	background-color: gray;
+	background-color: rgb(196, 220, 255);
 	padding: auto;
 }
